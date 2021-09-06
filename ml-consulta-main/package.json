@@ -1,0 +1,22 @@
+{
+  "name": "ml-consulta",
+  "version": "1.0.0",
+  "description": "clon de mercadolibre para DH en clase de consulta nro 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMMF/ml-consulta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMMF/ml-consulta/issues"
+  },
+  "homepage": "https://github.com/DiegoMMF/ml-consulta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
