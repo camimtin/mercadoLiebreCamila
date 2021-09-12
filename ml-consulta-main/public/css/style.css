@@ -1,3 +1,86 @@
-.lista{
-    
+ /*QUE SE HACE CON LOS COLORES DEL PRINCIPIO?*/
+ /*COMO SE CONFIGURA LA VISTA?*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: yellow; 
 }
+
+.titulares{
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+}
+
+.articulo {
+    font-size: 16px;
+}
+
+/*COMO SE ARMA EL BOTONCITO*/
+.burger-menu {
+   color:  #ebebeb;
+   background-color: #1259c3;
+}
+
+.pie-pag {
+    text-align: center;
+}
+
+
+/*ESTA BIEN CON WIDTH?*/
+.fa_blue {
+    width: 2em;
+    margin-bottom: 10px;
+}
+
+/* CAMBIO EL TAMAÑO ESTO? FALTA CENTRAR*/
+main {
+    width: 90%;
+}
+
+.productos{
+    margin-bottom: 10px;
+}
+
+/* POR QUE A LUCAS LE SALIO Y A MI NO?
+@media (min-width: 769px){
+    /*Desktop*/
+    }
+/* idem arriba
+@media(min-width: 361px){
+    /*Tablet*/
+    } 
+
+
+@media (max-width: 1200px) {
+
+}
+
+/*CLASE 13*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+
+   main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+   }
+   

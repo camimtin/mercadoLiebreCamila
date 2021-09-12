@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MercadoLiebre</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+       rel="stylesheet" />
+
 </head>
 <body>
     <header>
-        <!-- contenido futuro -->
+        <section clas="arriba">
         <img src="/images/logo-mercado-liebre.svg" alt="logo mercado liebre">
 
+        <div class="barra-bus">
         <p> Lugar para poner la barra de búsqueda </p>
-        <p>Comprá el cuotas y sin tarjeta de crédito </p>
+        <i class="fas fa-search"></i>
+        </div>
+
+        <div class="compra-cuo-sinta">
+        <p class="promos">Comprá el cuotas y sin tarjeta de crédito </p>
+        <i class="fas fa-hand-holding-usd"></i>
+        </div>
+
+        </section>
 
         <ul class= "lista">
             <li> <a href="#">Ofertas</a> </li>
@@ -23,97 +36,115 @@
 
         <ul class="lista">
             <li> <a href="#"> Creá tu cuenta </a> </li>
+            <i class="far fa-address-card"></i></a>
             <li> <a href="#"> Ingresá </a> </li>
+            <i class="fas fa-sign-in-alt"></i></a>
             <li> <a href="#"> Mis compras </a> </li>
+            <i class="fas fa-shopping-basket"></i></a>
         </ul>
+
+        <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+        </div>
+
+
+
     </header>
     <main>
 
-        <h1>Basado en tu última visita</h1>
+        <h1 class="titulares">Basado en tu última visita</h1>
         
-        <div>
+        <div class="producto">
             <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera moulinex">
-            <p> $6770 </p>
-            <p> 40% OFF </p>
-            <h3> Cafetera Moulinex </h3>
+            <p class="precio"> $6770 </p>
+            <p class="descuento"> 40% OFF </p>
+            <h3 class="articulo"> Cafetera Moulinex </h3>
         </div>
 
-        <div>
+        <div class="producto">
         <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        <p> $230.000 </p>
-        <p> 20% OFF </p>
-        <h3> MacBook Pro 2019 </h3>
+        <p class="precio"> $230.000 </p>
+        <p class="descuento"> 20% OFF </p>
+        <h3 class="articulo"> MacBook Pro 2019 </h3>
         </div>
 
-        <div>
+        <div class="producto">
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="samsung galaxy">
-            <p>$70.500</p>
-            <p> 10% OFF </p>
-            <h3> Samsumg Galaxy S10</h3> 
+            <p class="precio">$70.500</p>
+            <p class="descuento"> 10% OFF </p>
+            <h3 class="articulo"> Samsumg Galaxy S10</h3> 
         </div>
 
-        <div>
+        <div class="producto">
         <img src="/images/img-tv-samsung-smart.jpg" alt="samsung smart">
-        <p> $23.200 </p>
-        <p> 5% OFF </p>
-        <h3> SmartTV Samsung 43"</h3>
+        <p class="precio"> $23.200 </p>
+        <p class="descuento"> 5% OFF </p>
+        <h3 class="articulo"> SmartTV Samsung 43"</h3>
         </div>
 
-        <h1> Sección de Ofertas</h1>
+        <h1 class="titulares"> Sección de Ofertas</h1>
 
-        <div>
+        <div class="producto">
             <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera moulinex">
-            <p> $6770 </p>
-            <p> 40% OFF </p>
-            <h3> Cafetera Moulinex </h3>
+            <p class="precio"> $6770 </p>
+            <p class="descuento"> 40% OFF </p>
+            <h3 class="articulo"> Cafetera Moulinex </h3>
         </div>
 
-        <div>
+        <div class="producto">
         <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        <p> $230.000 </p>
-        <p> 20% OFF </p>
-        <h3> MacBook Pro 2019 </h3>
+        <p class="precio"> $230.000 </p>
+        <p class="descuento"> 20% OFF </p>
+        <h3 class="articulo"> MacBook Pro 2019 </h3>
         </div>
 
-        <div>
+        <div class="producto">
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="samsung galaxy">
-            <p>$70.500</p>
-            <p> 10% OFF </p>
-            <h3> Samsumg Galaxy S10</h3> 
+            <p class="precio">$70.500</p>
+            <p class="descuento"> 10% OFF </p>
+            <h3 class="articulo"> Samsumg Galaxy S10</h3> 
         </div>
 
-        <div>
+        <div class="producto">
         <img src="/images/img-tv-samsung-smart.jpg" alt="samsung smart">
-        <p> $23.200 </p>
-        <p> 5% OFF </p>
-        <h3> SmartTV Samsung 43"</h3>
+        <p class="precio"> $23.200 </p>
+        <p class="descuento"> 5% OFF </p>
+        <h3 class="articulo"> SmartTV Samsung 43"</h3>
         </div>
 
 
     </main>
 
     <footer>
+        <section class="pie-pag">
+
         <div> 
-            <h3>Pagá con tarjeta o en efectivo </h3>
+            <i class="fas fa-credit-card fa-4x fa_blue"></i>
+            <h3 class="titulo-pie">Pagá con tarjeta o en efectivo </h3>
             <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro! </p>
         </div>
 
         <div>
-            <h3>Envío gratis desde $2.500 </h3>
+            <i class="fas fa-gift fa-4x fa_blue"></i>
+            <h3 class="titulo-pie">Envío gratis desde $2.500 </h3>
             <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos. </p>
         </div> 
 
         <div> 
-            <h3> Seguridad, de principio a fin </h3>
+            <i class="fas fa-user-shield fa-4x fas fa_blue"></i>
+            <h3 class="titulo-pie"> Seguridad, de principio a fin </h3>
             <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@. </p>
         </div>
+        </section>
 
+        <section class="Copyright">
         <div> 
             <p> Copyright © 1999-2020 MercadoLiebre S.R.L. </p>
         </div>
+        </section>
 
     </footer>
 </body>
